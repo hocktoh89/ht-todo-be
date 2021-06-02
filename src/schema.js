@@ -1,5 +1,5 @@
 const { makeExecutableSchema } = require('apollo-server');
-const { resolvers } = require('./resolvers');
+const { resolvers } = require('./model/resolvers');
 
 const typeDefs = `
 
